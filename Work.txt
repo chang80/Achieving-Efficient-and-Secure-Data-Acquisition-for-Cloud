@@ -1,0 +1,78 @@
+Cloud Server
+
+---Login
+
+--- View all data owner file blocks in enc format with id,ownername,access details,dt,file blocks with its sign
+
+--- View all content and secret key attackers with dt and ip address
+
+--- View all owners skey and end key req and res with date and time
+
+--- View all file rank in Chart
+
+-- View no.of key and content attackers in chart
+
+
+Attribute Authority
+
+--- Login
+
+--- View all Data Owners and authorize
+
+--- View all End Users and authorize
+
+--- View all enc key permission req and give
+
+--- View all secret key permission and generate using RSA
+
+--- View dec key req from user and Give Permission
+
+--- Request sec key req from user and Give Permission
+
+
+
+
+Data Owner
+
+
+-- Register and Login,View profile
+
+--- Enter file name and get enc key permission from AA  and view response without entering filename and ownername
+
+--- Enter file name and get secret key permission from AA and view response without entering filename and ownername
+
+-- check enc key req and sec key req and then Browse file and split into four blocks and give file access to Researchers,Power Grid Staffs,Government Staffs,Others
+
+--- View all uploaded file wit access permissions
+
+--- View all file and give update and delete option
+
+--- View all files Verify any file and recover 
+
+
+
+Data Receiver
+
+
+-- register with  Researchers,Power Grid Staffs,Government Staffs,Others and Login
+
+--- View your profile
+
+--- View all authorized data
+
+--- Search data on only authorized data using content keyword and view its details(increment rank)
+
+--- Request dec key from AA and view response
+
+--- Request sec key from AA and view response
+
+--- Download the file 
+
+
+
+Attacker
+
+ --- Enter block name and attak the block
+
+
+
